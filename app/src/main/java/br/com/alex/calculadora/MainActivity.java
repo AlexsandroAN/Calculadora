@@ -19,13 +19,13 @@ public class MainActivity extends ActionBarActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        etNumero1 = (EditText) findViewById(R.calculo.numero1);
-        etNumero2 = (EditText) findViewById(R.calculo.numero2);
-        etResultado = (EditText) findViewById(R.calculo.resultado);
-        btSomar = (Button) findViewById(R.botao.btSoma);
-        btSubtrair = (Button) findViewById(R.botao.btSubtrair);
-        btDividir = (Button) findViewById(R.botao.btDividir);
-        btMultiplicar= (Button) findViewById(R.botao.btMultiplicar);
+        etNumero1 = (EditText) findViewById(R.id.numero1);
+        etNumero2 = (EditText) findViewById(R.id.numero2);
+        etResultado = (EditText) findViewById(R.id.resultado);
+        btSomar = (Button) findViewById(R.id.btSoma);
+        btSubtrair = (Button) findViewById(R.id.btSubtrair);
+        btDividir = (Button) findViewById(R.id.btDividir);
+        btMultiplicar= (Button) findViewById(R.id.btMultiplicar);
 
         btSomar.setOnClickListener(new View.OnClickListener() {
             @Override
