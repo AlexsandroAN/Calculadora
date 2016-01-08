@@ -10,11 +10,6 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent">
 
-    <TextView
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:text="Calculadoura do Alex"
-        android:textColor="@color/accent_material_dark"/>
 
     <TextView
         android:layout_width="fill_parent"
@@ -24,7 +19,7 @@
     <EditText
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:id="@+calculo/numero1"
+        android:id="@+id/numero1"
         android:numeric="decimal"/>
 
     <TextView
@@ -35,7 +30,7 @@
     <EditText
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:id="@+calculo/numero2"
+        android:id="@+id/numero2"
         android:numeric="decimal"/>
 
     <TextView
@@ -46,7 +41,7 @@
     <EditText
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:id="@+calculo/resultado"/>
+        android:id="@+id/resultado"/>
 
     <LinearLayout
         android:orientation="horizontal"
@@ -56,25 +51,25 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+botao/btSoma"
+        android:id="@+id/btSoma"
         android:text="Somar"/>
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+botao/btSubtrair"
+        android:id="@+id/btSubtrair"
         android:text="Subtrair"/>
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+botao/btDividir"
+        android:id="@+id/btDividir"
         android:text="Dividir"/>
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+botao/btMultiplicar"
+        android:id="@+id/btMultiplicar"
         android:text="Multiplicar"/>
 
     </LinearLayout>
